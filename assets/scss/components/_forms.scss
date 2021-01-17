@@ -1,0 +1,16 @@
+.form__content {
+  width: 19.5625rem;
+  height: auto;
+  padding: 2.375rem 1.5625rem 1.375rem 1.5625rem;
+  &__img {
+    height: min-content;
+    margin-bottom: 2.3125rem;
+  }
+}
+.formulate-input-error {
+  @apply text-primary;
+}
+button[type='submit'] {
+  width: 100% !important;
+  height: inherit !important;
+}
